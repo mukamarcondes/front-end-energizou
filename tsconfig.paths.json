@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "types": ["jest", "node"],
+    "baseUrl": ".",
+    "paths": {
+      "@functions/*": ["src/functions/*"],
+      "@libs/*": ["src/libs/*"],
+      "@shared/*": ["src/shared/*"],
+      "@model/*": ["src/model/*"],
+      "@routes/*": ["src/routes/*"],
+      "@data-source": ["src/data-source.ts"],
+      "@entitys/*": ["src/entity/*.ts"],
+    }
+  }
+}
