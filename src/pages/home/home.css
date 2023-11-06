@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.t {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.topo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 4%;
+  
+  width: 20%;
+  /* border-radius: 50%; */
+}
+
+
+/* sub bar */
+
+.pes {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 3%;
+  margin-bottom: -3%;
+  width: 100%;
+}
+
+.Subtopo{
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 79%;
+}
+.row {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+}
+ 
+.botão3{
+  background-color: rgb(255, 208, 0);
+  border-color: transparent;
+  border-radius: 40px;
+  
+  cursor: pointer;
+
+  font-size: 20px;
+  width: 140px;
+  height: 40px;
+  margin-left: 65%;
+  margin-right: 3%;
+  color: white;
+}
+
+.search-container {
+  
+  width: 490px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+input#search-bar{
+  margin: 0 auto;
+  width: 100%;
+  height: 45px;
+  /* padding: 0 20px; */
+  font-size: 1rem;
+  border: none;
+  border-bottom: 1px solid #D0CFCE;
+  outline: none;
+  &:focus{
+    border: 1px solid #000000;
+    transition: 0.35s ease;
+    color: #000000;
+    &::-webkit-input-placeholder{
+      transition: opacity 0.45s ease; 
+  	  opacity: 0;
+     }
+    &::-moz-placeholder {
+      transition: opacity 0.45s ease; 
+  	  opacity: 0;
+     }
+    &:-ms-placeholder {
+     transition: opacity 0.45s ease; 
+  	 opacity: 0;
+     }    
+   }
+ }
+
+
+
+
+
+/* tabela */
+
+    .geral {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      overflow: visible;
+      margin-bottom: 500%;
+      width: 100%;
+      height: 100%;
+    }
+
+    table {
+      
+      margin-top:8%;
+      align-items: center;
+      justify-content: center;
+      width: 80%;
+      /* height: 100%; */
+  }
+
+  table, th, td {
+      border-bottom: 1px solid black;
+      border-collapse: collapse;
+      text-align: center;
+    }
+
+    .con {
+      color: rgb(21, 215, 21);
+    }
+    .abe {
+      color: red;
+    }
+    .and {
+      color: rgb(252, 248, 0);
+    }
+
+    button {
+      background: transparent; 
+      border: none; 
+      outline: none; 
+      cursor: pointer;
+      transition: color 0.2s;
+    }
